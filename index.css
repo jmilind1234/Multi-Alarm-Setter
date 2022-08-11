@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+}
+
+ul{
+    padding-left:0px;
+}
+#alarm-set-section{
+    display:flex;
+    flex-direction: row;
+    width:75%;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100px;
+    margin:auto;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    background-color: white;
+}
+
+#hrs,#mins,#meridian{
+    width:20%;
+    height:40px;
+    border:1px solid black;
+    font-size:25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px  rgb(0, 133, 2409);    
+}
+H1{
+    text-align: center;
+}
+
+
+#alarm-list-container{
+    height: auto;
+    width:75%;
+    margin:auto;
+    /* border: 1px solid black; */
+    border-radius:12px;
+    background-color: white;
+}
+
+#container{
+    /* border:1px solid black; */
+    background-color: black;
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+
+
+.alarm-item{
+    height:30px;
+    line-height:30px;
+    font-size:35px;
+    padding: 3px;
+    position:relative;
+    /* border:1px solid black; */
+}
+
+.delete{
+    position:absolute;
+    right:10px;
+    top:13%;
+    font-size:20px;
+    width:15%;
+}
+
+.delete:hover{
+    position:absolute;
+    right:10px;
+    top:13%;
+    font-size:20px;
+    width:15%;
+    background-color: red;
+    color:white;
+    border-color: white;
+    transition:all 1s;
+}
+#currentTime{
+    height:100px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 12px;
+    background-color: black;
+}
+
+#currentTimer{
+    color:white;
+    font-family: 'Roboto Serif', serif;
+    text-shadow: 0px 0px 20px whitesmoke;
+    font-size: 70px;
+}
+
+#title{
+    color:white;
+    font-size:90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#add{
+    background-color: white;
+    border:2px solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#add:hover{
+    background-color: rgb(0, 133, 2409);
+    color:white;
+    border: 2px solid white;
+    transition: all 1s;
+}
